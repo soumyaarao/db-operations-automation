@@ -1,8 +1,3 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
 import subprocess
 import sys
 import shutil
@@ -51,11 +46,6 @@ def load_database_script(script_path):
 
 def setupDB():
     install_postgresql()
-    # if not is_postgresql_installed():
-    #     print("PostgreSQL is not installed. Attempting to install...")
-    #     install_postgresql()
-    # else:
-    #     print("PostgreSQL is already installed.")
 
 def is_db_created(db_name):
     try:

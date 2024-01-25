@@ -1,11 +1,3 @@
-# DB_HOST = "localhost"
-# DB_PORT = "5432"
-# DB_NAME = "operations_db"
-# DB_USER = "soumyarao"
-# DB_PASSWORD = "mypassword"
-#
-#
-# # constants.py
 import configparser
 import os
 
